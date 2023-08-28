@@ -1,0 +1,47 @@
+
+
+.footer{
+    display: flex;
+    justify-content:space-around;
+  
+    min-height: 9vh;
+    height: 9vh;
+    background-color:grey;
+    color: rgba(10, 43, 99, 0.945);
+    font-size: 25px;
+    font-weight: 800;
+    align-items: center;
+    
+    position:relative;
+    
+    width: 100%;
+    bottom:0%;
+    
+    
+}
+
+.footer p{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    
+}
+.social a i{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+#insta{
+    color: rgba(151, 10, 10, 0.756);
+   
+}
+#insta:hover{
+    color: rgb(94, 5, 35);
+}
+.social a :hover{
+    color: blue;
+}
