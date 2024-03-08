@@ -1,5 +1,6 @@
 .resume{
     height: 80.3vh;
+    overflow-x: hidden;
 }
 
 #res{

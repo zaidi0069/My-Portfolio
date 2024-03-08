@@ -54,18 +54,24 @@ function App() {
 
   return (
     <>
-       
        <BrowserRouter>
+      
           <Routes>
-             
-              <Route path="/" element={<Home mode={mode} togglemode={togglemode} />}/>
+            
+             <Route path="/" element={
+             <div className='outermost'><Home mode={mode} togglemode={togglemode} /></div>}/>
               <Route path="/resume"  element= {<Resume/>} />
+          
+              
           </Routes>
          
         </BrowserRouter>
       
-        
+      
+        <div className='outermost'>
         <Footer/>
+        </div>
+        
         
     </>
   );

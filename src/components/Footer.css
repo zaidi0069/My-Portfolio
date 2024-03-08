@@ -1,47 +1,101 @@
-
-
-.footer{
-    display: flex;
-    justify-content:space-around;
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
   
-    min-height: 9vh;
-    height: 9vh;
-    background-color:grey;
-    color: rgba(10, 43, 99, 0.945);
-    font-size: 25px;
-    font-weight: 800;
-    align-items: center;
-    
-    position:relative;
-    
+  .footer-content {
     width: 100%;
-    bottom:0%;
+  
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer-text {
+    font-size: 20px;
+  }
+  
+  .contact-info {
     
-    
-}
-
-.footer p{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  
+  }
+  .connect{
     display: flex;
     align-items: center;
-    padding-top: 10px;
-}
-.social{
-    display: flex;
-    align-items: center;
-    
-}
-.social a i{
-    margin-left: 20px;
-    font-size: 30px;
-}
+    justify-content: center;
+  }
 
-#insta{
-    color: rgba(151, 10, 10, 0.756);
-   
-}
-#insta:hover{
-    color: rgb(94, 5, 35);
-}
-.social a :hover{
-    color: blue;
-}
+  .connect p{
+    font-size: 25px;
+  }
+  
+  .contact-item {
+    padding-left: 5%;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    
+  }
+  
+  .contact-item i {
+  
+    font-size: 20px;
+  }
+  
+  .contact-item span {
+    font-size: 16px;
+  }
+  
+
+
+
+  
+  @media (max-width: 600px) {
+
+
+    .contact-item i {
+        
+        font-size: 15px;
+      }
+    .footer-container {
+        user-select: auto !important;
+    
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+        display: flex;
+      }
+    .footer-text {
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+
+    .connect p{
+        font-size: 20px;
+      }
+  }
+  

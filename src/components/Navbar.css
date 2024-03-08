@@ -1,8 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* dark light mode font */
 .dl{ 
     font-size: 15px;
 }
 
+/* navbar class */
+.nvb{  
+    overflow-x: hidden;
+    width: 100%;
+}
 .zaid{
     font-size: 30px;
     font-weight: 700;
@@ -38,13 +49,15 @@ html {
 
 
  /* Medium devices (tablets, 768px and up) */ 
- @media (max-width: 992px) { 
-    .cv, .dl{
-        display: none;
-        
-
-        
+ @media (max-width: 600px) {
+   
+    
+    .dl {
+        padding-left: 0 !important;
+        margin-left: 0 !important;   
+        user-select: none;
+    
     }
-
+    
  
 } 
