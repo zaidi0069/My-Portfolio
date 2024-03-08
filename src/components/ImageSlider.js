@@ -1,8 +1,6 @@
 import React from 'react'
 import './ImageSlider.css'
-import { useEffect } from 'react';
-import { CCarousel, CCarouselItem, CImage } from '@coreui/react'
-import { Splide, SplideSlide, type, perPage, autoplay } from '@splidejs/react-splide';
+import { Splide, SplideSlide} from '@splidejs/react-splide';
 
 const ImageSlider = (props) => {
 

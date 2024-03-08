@@ -6,6 +6,7 @@ import { useState } from 'react';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 
 import {
@@ -17,6 +18,7 @@ import {
 
 function App() {
 
+  
 
 
   const [mode,  setmode ]=useState({type:'light', inverse:'dark' , bodycolor:'null'})
@@ -72,7 +74,7 @@ function App() {
         <Footer/>
         </div>
         
-        
+        <SpeedInsights />
     </>
   );
 }
