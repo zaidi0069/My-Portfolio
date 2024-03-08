@@ -6,8 +6,8 @@ import devops from '../Images/devops.png'
 import testing from '../Images/testing.png'
 import cloud from '../Images/cloud.webp'
 import { useState , useEffect} from 'react'
-
 import './Services.css'
+
 const Services = (props) => {
 
   const [aosDelays, setAosDelays] = useState([500, 700, 900, 500, 700, 900]); // Default delay values for desktop

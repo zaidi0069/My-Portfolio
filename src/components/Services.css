@@ -9,9 +9,9 @@ html {
 
 .main{
     overflow-x: hidden;
-    padding-top: 5rem;
+    padding-top: 5%;
     width: 100%;
-    background-image: linear-gradient(rgba(128, 128, 128,0.3), rgb(219, 232, 231),rgba(104, 20, 130, 0.3));
+    background-image: linear-gradient(rgba(128, 128, 128,0.3), rgb(219, 232, 231),rgba(201, 240, 167, 0.3));
   
 }
 

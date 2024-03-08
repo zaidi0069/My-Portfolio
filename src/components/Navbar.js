@@ -45,11 +45,19 @@ const Navbar = (props) => {
                 <Link className={`hover text-${props.mode.inverse}`} to='/'>Home</Link>
               </ScrollLink>
             </li>
+
             <li className="nav-item mx-3">
               <ScrollLink className='nav-link hover' to="main" spy={true} smooth={true} offset={-70} duration={300}>
                 <Link className={`hover text-${props.mode.inverse}`}>Skills</Link>
               </ScrollLink>
             </li>
+
+            <li className="nav-item mx-3">
+              <ScrollLink className='nav-link hover' to="certmain" spy={true} smooth={true} offset={-70} duration={300}>
+                <Link className={`hover text-${props.mode.inverse}`}>Certifications</Link>
+              </ScrollLink>
+            </li>
+
             <li className="nav-item mx-3">
               <Link to='/resume' className="nav-link hover">Download Resume</Link>
             </li>

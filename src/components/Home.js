@@ -6,6 +6,8 @@ import Services from './Services'
 import MyProjects from './MyProjects';
 import { useTypewriter } from 'react-simple-typewriter'
 import Navbar from './Navbar';
+import Certifications from './Certifications';
+
 const Home = (props) => {
 
   const [trt] = useTypewriter({
@@ -65,6 +67,8 @@ const Home = (props) => {
       </div>
       <Services mode={props.mode} />
       <MyProjects mode={props.mode} />
+      <Certifications mode={props.mode}/>
+
     </>
   )
 }
