@@ -14,6 +14,13 @@ import bloodtwo from '../Images/2.png'
 import bloodthree from '../Images/3.png'
 import bloodfour from '../Images/4.png'
 
+import cs1 from '../Images/cs1.png'
+import cs2 from '../Images/cs2.png'
+import cs3 from '../Images/cs3.png'
+import cs4 from '../Images/cs4.png'
+import cs5 from '../Images/cs5.png'
+import cs6 from '../Images/cs6.png'
+
 
 const MyProjects = (props) => {
 
@@ -23,8 +30,24 @@ const MyProjects = (props) => {
     <div className={`projects bg-${props.mode.bodycolor}`}>
       <p className='heading' data-aos="fade-up">My Projects</p>
 
-
       <div className="pro1">
+
+        <div className="des1" data-aos='fade-right' data-aos-duration="400" data-aos-delay="500" >
+          <h1>Code Scrub</h1>
+          <p>
+            CodeScrub is an AI-powered code analyzer for JavaScript and Java projects.
+            Effortlessly scan your repository for code smells and poor practices that compromise quality
+            and maintainability. Improve your development process, boost code quality, and save time with
+            CodeScrub’s smart insights. Enjoy a user-friendly interface that lets you analyze your code with
+            just a few clicks, making manual reviews a thing of the past.
+          </p>
+        </div>
+        <div className="img1" data-aos='fade-top' data-aos-duration="300" data-aos-delay="300" >
+          <ImageSlider one={cs1} two={cs2} three={cs3} four={cs4} five={cs5} six={cs6} />
+        </div>
+      </div>
+
+      <div className="pro2">
 
         <div className="des1" data-aos='fade-right' data-aos-duration="400" data-aos-delay="500" >
           <h1>AirLine System (Java)</h1>
@@ -41,7 +64,7 @@ const MyProjects = (props) => {
       </div>
 
 
-      <div className="pro2">
+      <div className="pro3">
 
 
         <div className="des2" data-aos='fade-right' data-aos-duration="400" data-aos-delay="600" >

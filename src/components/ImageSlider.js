@@ -19,11 +19,25 @@ const ImageSlider = (props) => {
         <SplideSlide splide__toggle__play >
           <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.one} alt="slide 1" />
         </SplideSlide>
+
         <SplideSlide splide__toggle__play>
           <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.two} alt="slide 2"/>
         </SplideSlide>
+
         <SplideSlide splide__toggle__play>
           <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.three} alt="slide 3"/>
+        </SplideSlide>
+
+        <SplideSlide splide__toggle__play>
+          <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.four} alt="slide 4"/>
+        </SplideSlide>
+
+        <SplideSlide splide__toggle__play>
+          <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.five} alt="slide 5"/>
+        </SplideSlide>
+
+        <SplideSlide splide__toggle__play>
+          <img className="d-block img" style= {{height: '250px', width:'100%'}} src={props.six} alt="slide 6"/>
         </SplideSlide>
       </Splide>
     </div>
